@@ -1,0 +1,42 @@
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+.top-bar, .bottom-bar{
+    font-size: 0;
+}
+
+.top-bar .green, .top-bar .blue {
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+}
+
+.top-bar .green {
+    background-color: green;
+}
+
+.top-bar .blue {
+    background-color: blue;    
+}
+
+.bottom-bar .grey, .bottom-bar .black, .bottom-bar .yellow {
+    width: 33.3%;
+    display: inline-block;
+    height: 300px;
+}
+
+.bottom-bar .grey {
+    background-color: grey;
+}
+
+.bottom-bar .black {
+    background-color: black;
+}
+
+.bottom-bar .yellow {
+    background-color: yellow;
+}
